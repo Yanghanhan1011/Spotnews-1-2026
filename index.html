@@ -334,6 +334,7 @@
     margin-bottom: 1.5rem;
     font-size: 1rem;
     color: #333;
+    text-align: center;
     
 }
     </style>
@@ -345,7 +346,6 @@
         <p class="lead-paragraph">
             2026年春晚數據亮眼：<span class="highlight">230.63億次觸達</span>，<span class="highlight">收視份額創13年新高</span>。
             然而，作為歷年春晚重頭戲的語言類節目卻面臨嚴峻挑戰，數量銳減至<span class="highlight">6個</span>，且<span class="highlight">首次無相聲節目</span>。
-            本文將簡要分析這一現象背後的歷史變遷與創作困境。
         </p>
     </header>
   
@@ -359,16 +359,16 @@
     <main>
         <!-- ========= 历史对比：重构为图片+文字一行，图表单独一行 ========= -->
         <section id="historical-comparison">
-            <h2>歷史對比：語言類節目數量斷崖式下跌</h2>
+            <h2>歷史對比：延續43年的傳統被打破</h2>
             <!-- 第一行：文字 + 老照片 左右并排 -->
             <div class="flex-row">
                 <div class="flex-col">
                     <div class="chart-card" style="justify-content: center;">
                         <p style="font-size: 1.1rem;">
-                            從1983年春晚首次舉辦至今，語言類節目一直是觀眾期待的焦點。
-                            然而，從最初的<span class="highlight">17個</span>節目，到2026年的<span class="highlight">6個</span>，數量銳減了<span class="highlight">64.7%</span>。
-                            更值得注意的是，2026年春晚<span class="highlight">首次沒有相聲節目</span>，這標誌著語言類節目生態的重大變化。
-                            這一趨勢反映了創作者在節目創新、觀眾口味變化以及審查壓力等多重因素下的調整。
+                            從1983年首屆春晚至今，相聲從未缺席，一代代相聲演員在除夕夜為觀眾帶來笑聲。1983年首屆春晚，語言類節目多達<span class="highlight">17個</span>
+                            ，<span class="highlight">相聲</span>佔據重要席位；此後數十年，相聲與小品共同構成春晚的<span class="highlight">主心骨</span>。
+                            然而2026年，這條連續<span class="highlight">43年</span>的傳統被打破。
+                            從數據看，語言類節目數量從1983年的17個銳減至2026年的<span class="highlight">6個</span>，降幅達<span class="highlight">64.7%</span>。相聲在2026年徹底缺席，標誌著語言類節目生態的重大變化。
                         </p>
                     </div>
                 </div>
@@ -410,7 +410,7 @@ window.addEventListener('load', function() {
 
         <!-- ========= 2026節目構成 (优化布局：图表与节目列表并排) ========= -->
         <section id="current-composition">
-            <h2>2026春晚節目構成：歌舞當道，語言類求變</h2>
+            <h2>今年春晚：什麼取代了相聲？</h2>
             <div class="flex-row">
                 <!-- 左：占比图 -->
                 <div class="flex-col">
@@ -440,7 +440,11 @@ window.addEventListener('load', function() {
             <!-- 下方补充说明 -->
                     <div class="chart-card" style="justify-content: center;">
                         <p style="font-size: 1.1rem;">
-                         在僅有的6個語言類節目中，觀眾熟悉的傳統小品<span class="highlight">僅佔半數</span>，而相聲則被兩種新興形態取而代之：2個接近綜藝式情景片段的<span class="highlight">「喜劇短劇」</span>（《你准喜歡》《血壓計》），以及1個融合了方言與快節奏對白的創新形式<span class="highlight">「對口白話」</span>（《誰的菜》）。語言類節目時長的縮減以及形式的碎片化導致其已無法擔起春晚的主心骨稱號。同時大量科技秀與歌舞表演在今年春晚佔據了約<span class="highlight">64%</span>的主導地位。由此可見，春晚已逐漸轉向追求視聽衝擊和即時情緒反饋的<span class="highlight">「短平快」</span>模式。   
+                         在僅有的6個語言類節目中，觀眾熟悉的傳統小品<span class="highlight">僅佔半數</span>（3個）。相聲則被兩種新興形態取代：
+
+<span class="highlight">喜劇短劇</span>（2個）：《你喜歡》《血壓計》。這種形式接近綜藝式情景片段，節奏更快、視覺元素更豐富。
+<span class="highlight">對口白話</span>（1個）：《誰的菜》。融合方言與快節奏對白，追求即時笑點。
+語言類節目時長縮減、形式碎片化，已難以擔起春晚主心骨的稱號。與此同時，歌舞與科技秀佔據約<span class="highlight">64%</span>的舞台時長，春晚正逐漸轉向追求視聽衝擊和即時情緒反饋的「短平快」模式。
                         </p>
                     </div>
         </section>
@@ -448,9 +452,9 @@ window.addEventListener('load', function() {
 
         <!-- ========= 创作困境 (基本保持原布局，仅微调色彩) ========= -->
         <section id="creative-dilemma">
-            <h2>創作困境：內容為王與安全至上</h2>
+            <h2>創作者視角：困境中的選擇</h2>
             <div class="background-intro">
-    <p>近年來，春晚語言類節目創作環境日益複雜。一方面，觀眾對笑料的期待與日俱增，對內容深度和社會諷刺的要求不減；另一方面，創作者需在多重審查與輿論壓力下尋找平衡，題材選擇與表達方式受到限制，導致創作空間收窄，精品難出。</p>
+    <p>如何在觀眾期待與創作限制之間找到平衡？2026年相聲的缺席，或許正是這一困境的極致體現。</p>
 </div>
             <div class="flex-row">
                 <div class="flex-col">
@@ -525,8 +529,10 @@ window.addEventListener('load', function() {
         <!-- 結語部分：使用醒目的結論框 -->
         <div class="chart-card" style="justify-content: center;">
                         <p style="font-size: 1.5rem;">
-                        <p><span class="highlight">如何在“求安全”與“求深度”之間找到平衡？</span></p>
-            <p>「規避輿論批評」正在成為一種隱形的節目篩選機制。作為國民級文化盛宴，春晚如何在「求安全」與「求深度」之間找到平衡點，已是一個緊迫的命題。</p>
+                        <p><span class="highlight">暫別或轉向？</span></p>
+            <p>43年來首次無相聲，是暫時的缺席，還是語言類節目生態變遷的信號？
+
+當「短平快」成為春晚的追求，傳統的鋪墊還能留住觀眾嗎？</p>
 
                         </p>
                     </div>
